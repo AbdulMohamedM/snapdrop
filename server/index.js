@@ -14,7 +14,7 @@ process.on('SIGTERM', () => {
 const parser = require('ua-parser-js');
 const { uniqueNamesGenerator, animals, colors } = require('unique-names-generator');
 
-class SnapdropServer {
+class sujadropServer {
 
     constructor(port) {
         const WebSocket = require('ws');
@@ -24,7 +24,7 @@ class SnapdropServer {
 
         this._rooms = {};
 
-        console.log('Snapdrop is running on port', port);
+        console.log('sujadrop is running on port', port);
     }
 
     _onConnection(peer) {
@@ -288,4 +288,4 @@ Object.defineProperty(String.prototype, 'hashCode', {
   }
 });
 
-const server = new SnapdropServer(process.env.PORT || 3000);
+const server = new sujadropServer(process.env.PORT || 3000);

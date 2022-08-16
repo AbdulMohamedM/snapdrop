@@ -518,7 +518,7 @@ class WebShareTargetUI {
 }
 
 
-class Snapdrop {
+class sujadrop {
     constructor() {
         const server = new ServerConnection();
         const peers = new PeersManager(server);
@@ -535,7 +535,7 @@ class Snapdrop {
     }
 }
 
-const snapdrop = new Snapdrop();
+const sujadrop = new sujadrop();
 
 
 
