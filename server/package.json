@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "ua-parser-js": "^0.7.24",
     "unique-names-generator": "^4.3.0",
